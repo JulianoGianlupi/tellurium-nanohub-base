@@ -1,6 +1,10 @@
 #!/bin/sh
 
+<<<<<<< HEAD
 /usr/bin/invoke_app "$@" -C "start_jupyter -t -A -T @tool CBE_Project_draft.ipynb" \
+=======
+/usr/bin/invoke_app "$@" -C "start_jupyter -t -A -T @tool egfr_igfr_LC.ipynb" \
+>>>>>>> 6e8cead586f39205a83287809d37a7606578f1c2
                         -t EGFR_IGF1R_In_Lung_Cancer \
                         -u anaconda3-5.1 \
                         -e TOOL_PYTHONPATH=/apps/share64/debian7/anaconda/anaconda3-5.1/tools/tellurium/20190823/lib/python3.6/site-packages
